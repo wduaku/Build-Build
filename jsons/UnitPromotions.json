@@ -1,0 +1,62 @@
+[
+  {
+		"name": "Industriousness",
+		"uniques": [
+			"Ignores terrain cost",
+     			"[+1] Sight",
+			"[+2] Movement",
+			"[1] Movement point cost to embark",
+			"[1] Movement point cost to disembark",
+      			"Can instantly construct a [non-[Great]] improvement <for [0] movement>",
+			"May create improvements on water resources",
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Uncapturable",
+			"Can move immediately once bought"]
+    
+	},
+
+	{ 
+		"name": "First Job", 
+		"uniques": [ 
+			"[+1] Sight", 
+			"[+2] Movement", 
+			"May Paradrop up to [10] tiles from inside friendly territory",  
+			"May heal outside of friendly territory", 
+			"All tiles cost 1 movement",
+			"Can enter ice tiles"] 
+	},
+
+	{ 
+		"name": "Second Job", 
+		"uniques": [ 
+			"[+1] Range", 
+			"[+1] Movement", 
+			"[+1] additional attacks per turn",
+			"Uncapturable",  
+			"Heals [+25] damage if it kills a unit"] 
+	},
+
+	{ 
+		"name": "Final Job", 
+		"prerequisites": ["First Job","Second Job"],
+		"uniques": [ 
+			"[+15] Strength", 
+			"[+150]% Strength <vs [All] units>",
+			"[+100]% Strength <vs [City]>", 
+			"[+1] additional attacks per turn",  
+			"May capture killed [Miilitary] units <with [50]% chance>"] 
+	},
+
+	{ 
+		"name": "Hidden Job, 
+		"uniques": [ 
+			"[+1] Range", 
+			"[+25] Strength",
+			"[+2] additional attacks per turn",
+			"[+250]% Strength <vs [All] units>",
+			"[+100]% Strength <hidden from users>",
+			"Heals [+25] damage if it kills a unit",
+			"Unit will heal every turn, even if it performs an action",
+			"[-250]% Strength for enemy [Military] units in adjacent [All] tiles<hidden from users>"] 
+	}
+]
