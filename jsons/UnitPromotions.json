@@ -40,7 +40,7 @@
 		"name": "Final Job", 
 		"prerequisites": ["First Job","Second Job"],
 		"uniques": [ 
-			"[+15] Strength", 
+			"[+15]% Strength", 
 			"[+150]% Strength <vs [All] units>",
 			"[+100]% Strength <vs [City]>", 
 			"[+1] additional attacks per turn",  
@@ -51,7 +51,7 @@
 		"name": "Hidden Job", 
 		"uniques": [ 
 			"[+1] Range", 
-			"[+25] Strength",
+			"[+25]% Strength",
 			"[+2] additional attacks per turn",
 			"[+250]% Strength <vs [All] units>",
 			"[+100]% Strength <hidden from users>",
