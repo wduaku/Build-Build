@@ -38,7 +38,7 @@
 
 	{ 
 		"name": "Final Job", 
-		"prerequisites": ["First Job","Second Job"],
+		"prerequisites": ["1st ability","2nd ability"],
 		"uniques": [ 
 			"[+15]% Strength", 
 			"[+150]% Strength <vs [All] units>",
