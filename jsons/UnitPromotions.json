@@ -16,7 +16,7 @@
 	},
 
 	{ 
-		"name": "First Job", 
+		"name": "1st ability", 
 		"uniques": [ 
 			"[+1] Sight", 
 			"[+2] Movement", 
@@ -27,7 +27,7 @@
 	},
 
 	{ 
-		"name": "Second Job", 
+		"name": "2nd ability", 
 		"uniques": [ 
 			"[+1] Range", 
 			"[+1] Movement", 
@@ -48,7 +48,7 @@
 	},
 
 	{ 
-		"name": "Hidden Job, 
+		"name": "Hidden Job", 
 		"uniques": [ 
 			"[+1] Range", 
 			"[+25] Strength",
