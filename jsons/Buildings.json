@@ -13,10 +13,22 @@
 			"Destroyed when the city is captured",
 			"Only available <for [Human player] Civilizations><hidden from users>"]
 	},
+	//WorkerAI
+	{
+		"name": "Department of Labor AI",
+		"cost": 0,
+		"isWonder": true,
+		"uniques": ["Can be purchased with [Gold] [in capital]",
+			"All newly-trained [Worker] units [in all cities] receive the [Industriousness] promotion",
+			"[+50]% Production when constructing [Worker] units [in all cities]",
+			"May buy [Worker] units for [0] [Gold] [in all cities]",
+			"Destroyed when the city is captured",
+			"Only available <for [AI player] Civilizations><hidden from users>"]
+	},
 	//Happy
 	{ 
 		"name": "House of Happiness",  
-		"cost": 70, 
+		"cost": 30, 
 		"isNationalWonder": true, 
 		"uniques": [ "Destroyed when the city is captured",  
 			"[+15 Happiness] per [2] population [in all cities]", 
@@ -28,21 +40,20 @@
 	},
 	//Food
 	{ 
-		"name": "Food Factory",  
-		"cost": 200, 
+		"name": "Farming Field",  
+		"cost": 30, 
 		"isNationalWonder": true, 
 		"uniques": [ "Destroyed when the city is captured", 
 			"[+5 Food] per [1] population [in all cities]",
 			"[+600]% [Food] [in all cities]", 
 			"Moves to new capital when capital changes",
-			"Can be purchased with [Gold] [in capital]",
-			"Only available <if [BnB Capital] is constructed" 
+			"Can be purchased with [Gold] [in capital]", 
 			"Only available <for [Human player] Civilizations><hidden from users>"] 
 	},
 	//GoldnProd
 	{ 
-		"name": "BnB Capital",  
-		"cost": 150, 
+		"name": "Factory",  
+		"cost": 50, 
 		"isNationalWonder": true, 
 		"uniques": [ "Destroyed when the city is captured", 
 			"[+10 Production] per [1] population [in all cities]",
@@ -53,32 +64,45 @@
 			"[+100]% [Science] [in all cities]",
 			"[+100]% [Gold] [in all cities]",
 			"Can be purchased with [Gold] [in capital]",
-			"Only available <if [House of Happiness] is constructed" 
 			"Only available <for [Human player] Civilizations><hidden from users>"] 
+	},
+	//GoldnProdAI
+	{ 
+		"name": "AI Factory",  
+		"cost": 1, 
+		"isWonder": true, 
+		"uniques": [ "Destroyed when the city is captured", 
+			"[+5 Production] per [1] population [in all cities]",
+			"[+5 Gold] per [1] population [in all cities]",
+			"[+5 Food] per [1] population [in all cities]",
+			"[+100]% [Production] [in all cities]",
+			"[+200]% [Food] [in all cities]",
+			"[+100]% [Gold] [in all cities]",
+			"Can be purchased with [Gold] [in capital]",
+			"Only available <for [AI player] Civilizations><hidden from users>"] 
 	},
 	//Military
 	{ 
 		"name": "Military House", 
-		"cost": 500, 
+		"cost": 100, 
 		"isNationalWonder": true, 
 		"uniques": [ "Destroyed when the city is captured", 
 			"No damage penalty for wounded units",   
-			"New [All] units start with [5000] XP [in all cities]", 
 			"No movement cost to pillage", 
-			"All newly-trained [Military] units [in all cities] receive the [First Job] promotion",
+			"All newly-trained [Military] units [in all cities] receive the [1st ability] promotion",
 			"Only available <for [Human player] Civilizations><hidden from users>"]
 	},
-	//Military2
+	//Military
 	{ 
-		"name": "Guardian House", 
-		"cost": 650, 
+		"name": "Guard House", 
+		"cost": 350, 
 		"isNationalWonder": true, 
 		"uniques": [ "Destroyed when the city is captured", 
 			"Enables [All] units to enter ocean tiles", 
 			"Can perform Air Sweep",
 			"All healing effects doubled", 
-			"All newly-trained [Military] units [in all cities] receive the [Second Job] promotion",
-			"Only available <if [Military House] is constructed"
+			"All newly-trained [Military] units [in all cities] receive the [2nd ability] promotion",
+			"Only available <if [Military House] is constructed",
 			"Only available <for [Human player] Civilizations><hidden from users>"]
 	},
 	//Resource
@@ -91,7 +115,7 @@
 			"[+350]% [Production] [in all cities]",
 			"Can be purchased with [Gold] [in capital]",
 			"Moves to new capital when capital changes",
-			"Only available <if [Guardian House] is constructed"
+			"Only available <if [Guard House] is constructed>",
 			"Will not be displayed in Civilopedia",
 			"All newly-trained [Military] units [in all cities] receive the [Hidden Job] promotion <hidden from users>", 
 			"Only available <for [Human player] Civilizations><hidden from users>"] 
