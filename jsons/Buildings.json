@@ -102,7 +102,7 @@
 			"Can perform Air Sweep",
 			"All healing effects doubled", 
 			"All newly-trained [Military] units [in all cities] receive the [2nd ability] promotion",
-			"Only available <if [Military House] is constructed",
+			"Only available <if [Military House] is constructed>",
 			"Only available <for [Human player] Civilizations><hidden from users>"]
 	},
 	//Resource
